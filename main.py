@@ -5,7 +5,7 @@ import math
 import matplotlib.pyplot as plt
 
 # palabos params
-Re = 240.0  # Reynolds number.
+Re = 220.0  # Reynolds number.
 nx = 500
 ny = 300
 uLB = 0.04  # Velocity in lattice units.
