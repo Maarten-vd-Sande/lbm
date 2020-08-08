@@ -1,5 +1,6 @@
 from numba import jit
-from util import CT
+
+from lbm.util import CT
 
 
 # @jit(nopython=True)

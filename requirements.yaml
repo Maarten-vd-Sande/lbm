@@ -1,0 +1,7 @@
+name: lbm
+dependencies:
+    - python>=3.6
+    - numpy
+    - numba
+    - matplotlib
+    - ffmpeg

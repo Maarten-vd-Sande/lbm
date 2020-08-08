@@ -1,6 +1,7 @@
 import numpy as np
-from streamcollide import lbm_streaming, lbm_collision
-from update_types import update_types
+
+from lbm.streamcollide import lbm_streaming, lbm_collision
+from lbm.update_types import update_types
 
 
 def evolve(total_timesteps, fin, fout, equi, fdist, inlet, u, rho, mass, cell_type, omega, v, v_inv, t, gravity):

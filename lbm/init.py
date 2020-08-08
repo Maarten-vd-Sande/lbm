@@ -1,5 +1,6 @@
 import numpy as np
-from util import CT
+
+from lbm.util import CT
 
 
 def init(nx, ny):

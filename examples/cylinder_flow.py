@@ -1,11 +1,16 @@
+import sys
+import os
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
-from streamcollide import set_equi
-from util import CT, v, v_inv, t
+# make lbm importable
+sys.path.append(os.path.abspath(os.path.dirname(__file__) + "/.."))
+from lbm.streamcollide import set_equi
+from lbm.util import CT, v, v_inv, t
 from lbm.time_evolve import  evolve
-from init import init
+from lbm.init import init
 
 
 # set the domain variables

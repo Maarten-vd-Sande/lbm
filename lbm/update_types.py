@@ -1,6 +1,7 @@
 from numba import jit
-from util import CT
-from streamcollide import get_normal, set_equi
+
+from lbm.util import CT
+from lbm.streamcollide import get_normal, set_equi
 
 
 @jit(nopython=True)
